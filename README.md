@@ -44,27 +44,24 @@ Durante el desarrollo del portafolio se enfrentaron y solucionaron desafíos arq
 
 ## 🚀 Comandos de Inicialización (Guía de Uso Local)
 
-
-
 Si deseas clonar y ejecutar este proyecto en tu entorno local, sigue estos pasos en tu terminal:
 
-1. **Bypass de políticas de ejecución (Solo si estás en Windows con PowerShell bloqueado):**
+**Bypass de políticas de ejecución (Solo si estás en Windows con PowerShell bloqueado):**
    ```bash
    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-
-  
-
+```
  Navegar al directorio del proyecto:
-Bash
+```bash
 cd portafoleoReact
+```
 Instalar la paquetería de dependencias (node_modules):
-
-Bash
+```bash
 npm install
+```
 Encender el servidor de desarrollo en Vite:
-
-Bash
+```bash
 npm run dev
+```
 Accede desde tu navegador a la dirección local que te indique la consola (habitualmente http://localhost:5173).
 
 Desarrollado con dedicación y optimización de código. ¡Código limpio, modular y escalable! 💻🔥
