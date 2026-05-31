@@ -105,3 +105,44 @@
   position: relative;
   z-index: 2; 
 }
+
+/* ==========================================
+   📱 RESPONSIVE DESIGN (Para Celulares)
+   ========================================== */
+@media (max-width: 768px) {
+  
+  /* Ajustamos el Navbar para que no use tanto espacio */
+  .navbar {
+    padding: 1rem 5%; /* Reducimos el espacio de los lados del 10% al 5% */
+    flex-wrap: wrap;  /* Permite que los elementos bajen si no caben */
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1.2rem; /* Achicamos un pelo el logo */
+  }
+
+  /* Ocultamos o reestructuramos los links para que no desborden */
+  .nav-links {
+    gap: 1rem;       /* Menos espacio entre Inicio, Acerca de, etc. */
+    width: 100%;     /* Hacemos que ocupen todo el ancho abajo del logo */
+    justify-content: center; /* Los centramos */
+    padding-top: 0.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem; /* Letra un poco más pequeña para que quepa */
+  }
+
+  /* Evitamos que cualquier sección empuje la pantalla hacia los lados */
+  .hero, .about-section, .projects-section, .contact-section {
+    padding: 2rem 5%; /* Ajusta el padding de tus secciones para móviles */
+    overflow: hidden;  /* Corta cualquier cosa que intente salirse */
+  }
+}
+
+/* anti-desborde horizontal */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}

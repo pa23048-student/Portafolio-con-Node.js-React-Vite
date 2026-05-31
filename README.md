@@ -44,14 +44,17 @@ Durante el desarrollo del portafolio se enfrentaron y solucionaron desafíos arq
 
 ## 🚀 Comandos de Inicialización (Guía de Uso Local)
 
+
+
 Si deseas clonar y ejecutar este proyecto en tu entorno local, sigue estos pasos en tu terminal:
 
 1. **Bypass de políticas de ejecución (Solo si estás en Windows con PowerShell bloqueado):**
    ```bash
    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
-   Navegar al directorio del proyecto:
+  
 
+ Navegar al directorio del proyecto:
 Bash
 cd portafoleoReact
 Instalar la paquetería de dependencias (node_modules):
