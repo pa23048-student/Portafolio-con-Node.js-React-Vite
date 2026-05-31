@@ -1,0 +1,79 @@
+.contact-section {
+  padding: 5rem 10%;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  /* Alinea icono y texto verticalmente */
+  gap: 0.8rem;
+  /* Espacio entre el icono y el texto */
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  text-decoration: none;
+  color: var(--text-main);
+  padding: 0.8rem 1.8rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+/* Controla el tamaño de los iconos vectoriales */
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-card:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/*GitHub*/
+.github:hover {
+  background-color: #24292e;
+  border-color: #24292e;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.instagram:hover {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  border-color: transparent;
+}
+
+.email:hover {
+  background-color: #ea4335;
+  border-color: #ea4335;
+}
+
+/* Color hover oficial para YouTube */
+.youtube:hover { 
+  background-color: #ff0000; 
+  border-color: #ff0000; 
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}

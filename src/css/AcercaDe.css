@@ -1,0 +1,49 @@
+.about-section {
+  padding: 5rem 10%;
+  background-color: rgba(255, 255, 255, 0.01);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.about-text, .about-skills {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h2, .about-skills h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-text p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-badge {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: border-color 0.3s;
+}
+
+.skill-badge:hover {
+  border-color: var(--accent-color);
+}
